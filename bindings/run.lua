@@ -1,5 +1,5 @@
 local mainMod = "SUPER"
-local terminal = "alacritty"
+local terminal = "ghostty"
 
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("nautilus"))
 hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("obsidian"))
