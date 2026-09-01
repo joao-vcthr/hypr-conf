@@ -14,8 +14,8 @@ hl.bind("ALT + H", hl.dsp.exec_cmd('chromium --app="https://github.com/"'))
 -- AI
 hl.bind("ALT + C", hl.dsp.exec_cmd('chromium --app="https://chatgpt.com/"'))
 hl.bind("ALT + G", hl.dsp.exec_cmd('chromium  --app="https://gemini.google.com/app"'))
-hl.bind(mainMod .. " + ALT + C", hl.dsp.exec_cmd('chromium --app="https://claude.ai/"'))
-hl.bind(mainMod .. " + ALT + G", hl.dsp.exec_cmd('chromium --app="https://grok.com/"'))
+hl.bind("ALT + A", hl.dsp.exec_cmd('chromium --app="https://claude.ai/"'))
+hl.bind("ALT + X", hl.dsp.exec_cmd('chromium --app="https://grok.com/"'))
 
 -- YouTube
 hl.bind("ALT + M", hl.dsp.exec_cmd('chromium  --app="https://music.youtube.com/"'))
