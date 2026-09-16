@@ -5,11 +5,11 @@ local terminal = "ghostty"
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal)) -- launch Terminal (Ghostty)
 
 -- TUIs BINDINGS
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(terminal .. " -e " .. "yazi")) -- launch File Explorer (lf)
-hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(terminal .. " -e " .. "btop")) -- launch Bottom
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(terminal .. " -e " .. "yazi")) -- launch File Explorer (Yazi)
+hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(terminal .. " -e " .. "btop")) -- launch Btop++
 
 -- BROWSER BINDINGS
-hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("brave")) -- launch Brave
+hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("firefox")) -- launch Firefox
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("chromium")) -- launch Chromium
 
 -- CODE EDITORS AND IDEs BINDINGS
